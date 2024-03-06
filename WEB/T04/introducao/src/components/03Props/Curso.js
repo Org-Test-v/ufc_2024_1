@@ -1,5 +1,4 @@
 //imprima o nome do curso e pelo menos 3 disciplinas
-//imprima o nome do curso e pelo menos 3 disciplinas
 import Disciplina from "./Disciplina";
 const Curso = () => {
   return(
