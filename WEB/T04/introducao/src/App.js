@@ -1,10 +1,11 @@
-import ComPai from "./components/05ComPaiFilho/ComPai";
+//Utilizando estados
+import Estado from "./components/06Estados/Estado";
 
 function App() {
   return (
     <div>
-      <h1> Comunicação pai e fi</h1>
-      <ComPai />
+      <h1> Estado</h1>
+      <Estado />
     </div>
   )
 }
