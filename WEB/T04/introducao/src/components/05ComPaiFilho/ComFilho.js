@@ -8,7 +8,7 @@ const ComFilho = ({mensagem, enviarMensagemParaOPai}) => {
             <button
                 onClick={
                     () => {
-                        enviarMensagemParaOPai("Oi pai, tudo bom?")
+                        enviarMensagemParaOPai("Rabela baitola!")
                     }
                 }
             >
