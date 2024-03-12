@@ -1,43 +1,11 @@
-import "./estilos.css"
-import React, {Component} from "react";
-
-function MeusDados() {
-  return (
-    <div className="fundo-amarelo">
-      <h1>Nome: Jefferson de Carvalho</h1>
-      <h1>Curso: SI</h1>
-      <h1>Universidade: UFC</h1>
-    </div>
-  );
-}
-
-const MeusDadosV1 = () => {
+const MeusDados = () => {
   return (
     <div>
-      <h1>Nome: Jefferson de Carvalho</h1>
-      <h1>Curso: SI</h1>
-      <h1>Universidade: UFC</h1>
+      <h2>Nome: Kauan Oliveira Perdigão Lopes</h2>
+      <h2>Curso: Sistemas de Informação</h2>
+      <h2>Universidade: Universidade Federal do Ceará</h2>
     </div>
-  );
-};
-
-const MeusDadosV2 = () => 
-  <div>
-    <h1>Nome: Jefferson de Carvalho</h1>
-    <h1>Curso: SI</h1>
-    <h1>Universidade: UFC</h1>
-  </div>
-
-class MeusDadosV3 extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Nome: Jefferson de Carvalho</h1>
-                <h1>Curso: SI</h1>
-                <h1>Universidade: UFC</h1>
-            </div>
-        )
-    }
+  )
 }
-
-export { MeusDados, MeusDadosV1, MeusDadosV2, MeusDadosV3 };
+export default MeusDados
+//teste
