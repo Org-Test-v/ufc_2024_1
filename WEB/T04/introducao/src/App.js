@@ -4,7 +4,7 @@ import Pokemon from "./components/06Estados/Pokemon";
 function App() {
   return (
     <div>
-      <h1> Estado</h1>
+      <h1> Poke API</h1>
       <Pokemon />
     </div>
   )
