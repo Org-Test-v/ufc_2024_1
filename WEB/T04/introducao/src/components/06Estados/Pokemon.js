@@ -32,7 +32,7 @@ const Pokemon = () => {
                 Incrementar
             </button>
             <button
-                onClick={decrementarContador()}
+                onClick={() => decrementarContador()}
             >
                 Decrementar
             </button>
