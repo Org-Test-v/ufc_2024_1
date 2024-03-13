@@ -5,6 +5,7 @@ WEB/T04/introducao/node_modules
 /.pnp
 .pnp.js
 .gitignore
+/PI3
 
 # testing
 /coverage
